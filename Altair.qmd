@@ -5,6 +5,8 @@ date: '2024-02-10'
 format:
   html:
     code-fold: true
+ipynb-filters:
+  - filter.py
 jupyter: python3
 ---
 
