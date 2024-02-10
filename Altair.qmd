@@ -1,0 +1,28 @@
+---
+title: Altair Demo 大甲媽
+author: 張名揚
+date: '2024-02-10'
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+```{python}
+#| label: fig-bar
+#| fig-cap: A bar chart
+
+import altair as alt
+import pandas as pd
+
+source = pd.DataFrame({
+    'a': ['甲', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],
+    'b': [28, 55, 43, 91, 81, 53, 19, 87, 52]
+})
+
+alt.Chart(source).mark_bar().encode(
+    x='a',
+    y='b'
+)
+```
+
