@@ -3,7 +3,7 @@ project:
   
 website: 
   page-navigation: false
-  title: "Making sharable documents with Quarto" 
+  title: "MY Clone of Making sharable documents with Quarto" 
   site-url: "https://mysheepb.github.io/quarto-website-tutorial" 
   repo-url: https://github.com/mysheepb/quarto-website-tutorial 
   repo-actions: [edit, issue]
