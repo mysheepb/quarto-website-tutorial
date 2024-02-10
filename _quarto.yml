@@ -34,6 +34,7 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
+      - Altair.qmd
       - explore.qmd
       - section: quarto-workflows/index.qmd
         contents: 
